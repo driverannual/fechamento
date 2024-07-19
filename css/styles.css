@@ -1,0 +1,75 @@
+    /* Estlos */
+@font-face {
+    font-family: Inter;
+    src: url(Inter-VariableFont_slnt,wght.ttf);
+    }
+body{
+    background-color: #101010;
+    font-family: Inter, sans-serif;
+}
+div{
+    display: block;
+    margin-top: 300px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-weight: 900;
+    font-size: larger;
+}
+p{
+    text-align: center;
+    color: #bebebe;
+    font-weight: 500;
+}
+
+    /* Classes */
+.paragráfoDiferente{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: #abeb4b;
+        padding: 8px;
+        max-width: max-content;
+        color: black;
+        font-weight: 900;
+        font-size: larger;
+        border-radius: 5px;
+}
+    /* IDs */
+#h1Unico{
+    color: #ec6363;
+    font-size: medium;
+}
+.issoClasse{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2f23cc;
+    padding: 8px;
+    max-width: max-content;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: larger;
+    border-radius: 5px;
+}
+#issoID{
+    background-color: #23b8cc;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: larger;
+    border-radius: 5px;
+}
+video {
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
